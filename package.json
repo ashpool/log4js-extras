@@ -1,0 +1,33 @@
+{
+  "name": "log4js-extras",
+  "version": "0.0.1",
+  "description": "Log4js extensions",
+  "main": "./lib/logger",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashpool/log4js-extras.git"
+  },
+  "keywords": [
+    "log4js",
+    "logg"
+  ],
+  "author": "Magnus Ljadas <magnus.ljadas@gmail.com> (https://github.com/ashpool)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ashpool/log4js-extras/issues"
+  },
+  "homepage": "https://github.com/ashpool/log4js-extras",
+  "dependencies": {
+    "log4js": "^0.6.22"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.1.0"
+  }
+}
